@@ -1,0 +1,91 @@
+body{
+    background-image: url("https://smktarunabhakti.net/wp-content/uploads/2023/11/20231002_141528-scaled.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    margin: auto;
+    padding-top: 300px;
+    padding-left: 100px;
+    padding-bottom: 200px;
+    padding-right: 100px;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+    display: flex;
+    gap: 1.5rem;
+}
+
+
+@media screen and (max-width: 1200px) {
+    main {
+        flex-flow: column nowrap;
+    }
+    
+    main{
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main{
+        align-self: stretch;
+    }
+}
+
+.profile {
+    padding: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    background-color: rgb(255, 255, 255, 0.85);
+    border-radius: 10px;
+    flex: 5;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile header{
+    text-align: center;
+}
+
+.profile h2{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.Logo{
+    object-position: right
+}
+
+.Foto{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border: 5px;
+    border-radius: 50%;
+    border-color: rgb(41, 41, 90);
+    border-style: solid;
+}
+
+.profile img{
+    width: 300px;
+}
+
+.profile table{
+    max-width: auto;
+    font-size: 30px;
+}
+
+.profile th{
+    text-align: left;
+    font-weight: bold;
+    padding-right: 150px;
+}
+
